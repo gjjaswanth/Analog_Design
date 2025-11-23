@@ -1,4 +1,5 @@
 # Analog_Design
-In this repository i will share my projects of analog design
+Here I will share my projects of analog design
 
 We designed 5T opamp.
+The projects are under progress
