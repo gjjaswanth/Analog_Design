@@ -1,4 +1,5 @@
 Telescopic Opamp using xschem and Ngpice
+
 And here is the gain-frequency plot
 
 
