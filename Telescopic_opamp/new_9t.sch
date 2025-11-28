@@ -44,11 +44,9 @@ N 1220 -920 1250 -920 {lab=#net5}
 N 1220 -960 1220 -920 {lab=#net5}
 N 1220 -960 1250 -960 {lab=#net5}
 N 1220 -770 1250 -770 {lab=#net1}
-N 1220 -810 1250 -810 {lab=#net1}
 N 1220 -810 1220 -770 {lab=#net1}
 N 1490 -770 1520 -770 {lab=#net6}
 N 1520 -820 1520 -770 {lab=#net6}
-N 1490 -820 1520 -820 {lab=#net6}
 N 1230 -490 1250 -490 {lab=#net7}
 N 1230 -490 1230 -450 {lab=#net7}
 N 1230 -450 1250 -450 {lab=#net7}
@@ -78,6 +76,8 @@ N 1370 -510 1740 -510 {lab=#net8}
 N 1740 -510 1740 -480 {lab=#net8}
 N 1140 -270 1190 -270 {lab=#net9}
 N 1190 -270 1190 -230 {lab=#net9}
+N 1220 -810 1250 -810 {lab=#net1}
+N 1490 -820 1520 -820 {lab=#net6}
 C {opin.sym} 1760 -610 0 0 {name=p1 lab=vout}
 C {/home/jaswanth/eda_tools/open_pdks/sky130/sky130A/libs.tech/xschem/sky130_fd_pr/pfet_01v8.sym} 1470 -920 0 0 {name=M3
 W=10
@@ -207,14 +207,14 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {vsource.sym} 1550 -1080 0 0 {name=V1 value=3 savecurrent=false}
+C {vsource.sym} 1550 -1080 0 0 {name=V1 value=3.6 savecurrent=false}
 C {capa.sym} 1630 -580 0 0 {name=C1
 m=1
 value=1p
 footprint=1206
 device="ceramic capacitor"}
 C {gnd.sym} 1550 -1050 0 0 {name=l1 lab=GND}
-C {vsource.sym} 1740 -450 0 0 {name=V2 value=0.8 savecurrent=false}
+C {vsource.sym} 1740 -450 0 0 {name=V2 value=1.3 savecurrent=false}
 C {vsource.sym} 1190 -330 0 0 {name=V4 value="dc 1 ac 1" savecurrent=false}
 C {vsource.sym} 1600 -330 0 0 {name=V5 value="dc 1 ac -1" savecurrent=false}
 C {gnd.sym} 1600 -300 0 0 {name=l2 lab=GND}
@@ -234,7 +234,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {isource.sym} 990 -340 0 0 {name=I0 value=20u}
+C {isource.sym} 990 -340 0 0 {name=I0 value=30u}
 C {gnd.sym} 1190 -300 0 0 {name=l5 lab=GND}
 C {gnd.sym} 1740 -420 0 0 {name=l6 lab=GND}
 C {code_shown.sym} 590 -810 0 0 {name=s1 only_toplevel=false value = "
@@ -244,6 +244,6 @@ C {code_shown.sym} 590 -810 0 0 {name=s1 only_toplevel=false value = "
 .control
   run
   setplot ac1
-  plot vdb(v(vout))
+  plot db(vout/vip)
 .endc"}
 C {code_shown.sym} 290 -610 0 0 {name=MODEL only_toplevel=false value=".lib /home/jaswanth/eda_tools/open_pdks/sources/sky130_fd_pr/models/sky130.lib.spice tt"}
