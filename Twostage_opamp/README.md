@@ -46,6 +46,7 @@ The two-stage operational amplifier consists of:
 ### 🔹 Biasing
 - Constant current sources used for proper biasing of both stages  
 
+<img width="1897" height="915" alt="Screenshot 2025-12-14 115949" src="https://github.com/user-attachments/assets/0706298a-93ee-4865-8454-50f0f1d7cda1" />
 
 
 ## ⚙️ Simulation Setup
@@ -101,9 +102,10 @@ The amplifier shows **good stability** due to proper Miller compensation.
 ## 📸 Waveforms & Plots
 
 * Bode magnitude plot (Gain vs Frequency)
-* Bode phase plot (Phase vs Frequency)
+  <img width="707" height="533" alt="Screenshot 2025-12-14 120129" src="https://github.com/user-attachments/assets/55967402-0835-4348-9794-c855ee7e3473" />
 
-(Add screenshots of NGSpice plots here)
+* Bode phase plot (Phase vs Frequency)
+<img width="710" height="545" alt="Screenshot 2025-12-14 120138" src="https://github.com/user-attachments/assets/48daa9bb-7acc-4b76-bc6f-daad429bc2e0" />
 
 ---
 
