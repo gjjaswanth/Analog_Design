@@ -46,6 +46,8 @@ AC analysis is performed to evaluate the **gain vs frequency response**.
 ```spice
 .ac dec 100 1 1e9
 ````
+### Schematic 
+<img width="1539" height="882" alt="Screenshot 2025-12-14 121019" src="https://github.com/user-attachments/assets/d1a99495-1805-437b-a055-56625107dc71" />
 
 ### Model Include
 
