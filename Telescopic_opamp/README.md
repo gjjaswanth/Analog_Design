@@ -107,16 +107,6 @@ The amplifier shows:
 * Telescopic op-amps trade **output swing** for **high speed and gain**
 * Single-stage nature avoids the need for Miller compensation
 
----
-
-## 📸 Plots & Waveforms
-
-* Gain vs Frequency (Initial design)
-* Gain vs Frequency (Improved design after optimization)
-
-(Add screenshots of NGSpice plots here)
-
----
 
 ## 📚 Learning Outcomes
 
@@ -127,37 +117,9 @@ The amplifier shows:
 
 ---
 
-## 🔮 Future Work
-
-* Output swing analysis
-* Noise analysis
-* Layout using **Magic**
-* Post-layout parasitic extraction and simulation
-
----
-
 ## 📄 License
 
 This project is intended for **educational and academic purposes only**.
-
-```
-
----
-
-### ✅ This README is:
-✔ GitHub-professional  
-✔ Lab-report / mini-project ready  
-✔ Analog-VLSI interview friendly  
-
-If you want next, I can:
-- Add **numerical gain & bandwidth values**
-- Combine **two-stage + telescopic** into one repo
-- Create a **comparison table (Two-stage vs Telescopic)**
-- Convert this into a **PDF report**
-
-Just tell me 👍
-```
-
 
 ## 🔍 How to Find the SKY130 Model File??
 
