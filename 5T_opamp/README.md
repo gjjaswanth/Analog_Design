@@ -106,6 +106,3 @@ Gain and bandwidth are extracted using Ngspice control commands.
 - AC analysis using Ngspice
 
 ---
-
-Analog Design  
-
