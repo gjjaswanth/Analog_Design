@@ -13,7 +13,11 @@ The layout represents the basic CMOS inverter structure and is intended for **VL
 - **SCMOS Technology**
 
 ---
+---
+##Layout 
+<img width="1917" height="1020" alt="Screenshot 2025-12-15 172257" src="https://github.com/user-attachments/assets/ea30611d-b3da-428b-9de5-8014c0308364" />
 
+---
 ## File Included
 | File Name | Description |
 |---------|------------|
@@ -36,6 +40,3 @@ The layout follows SCMOS design rules and standard CMOS inverter topology.
 ## How to Open the Layout
 ```bash
 magic -T scmos
-
-
-
