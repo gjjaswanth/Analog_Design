@@ -107,15 +107,5 @@ Gain and bandwidth are extracted using Ngspice control commands.
 
 ---
 
-
-## 📚 References
-- SKY130 PDK Documentation  
-- Allen & Holberg – CMOS Analog Circuit Design  
-- Ngspice User Manual  
-
----
-
-## 👤 Author
-**Jaswanth**  
-ECE | VLSI & Analog Design  
+Analog Design  
 
